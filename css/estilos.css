@@ -1,0 +1,29 @@
+/* RESETEO */
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #28bce5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* FUENTES */
+@font-face {
+    font-family: SourceCodePro;
+    src: url(../fuentes/SourceCodePro-Black.otf);
+}
+
+.slide{
+padding-top: 20px;
+}
+.slide img{
+    height: 300px;
+}
+@media only screen and (min-width: 768px){
+    .slide img{
+        width: 768px!important
+    }
+    .carousel-item.active {
+        display: flex!important;
+        justify-content: center;
+        
+    }
+}
